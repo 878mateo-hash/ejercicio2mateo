@@ -4,6 +4,9 @@ from ejercicios.ejercicio3 import ejercicio_3
 from ejercicios.ejercicio4 import ejercicio_4
 #Preferenciar la clase
 from poo.Clases.ejer1poo import Ejercicio1
+from poo.Clases.ejer2poo import Ejercicio2
+from poo.Clases.ejer3poo import Ejercicio3
+from poo.Clases.ejer4poo import ejercicio4
 #carpeta carpeta carpeta          calse
 
 def menuprincipal():
@@ -30,10 +33,19 @@ def menuprincipal():
                 
                 ejercicio_1()
             case 2:
+                e2= Ejercicio2
+                e2.asignaDatos()
+                e2.mostrarMensaje()
                 ejercicio_2 ()
             case 3:
+                e3= Ejercicio3
+                e3.leerPalabra
                 ejercicio_3 ()
             case 4:
+                e4=ejercicio4
+                e4.leerValores()
+                e4.calcularTiempo()
+                e4.mostrarResultados()
                 ejercicio_4 ()
             case 5:
                 print ("hasta pronto")

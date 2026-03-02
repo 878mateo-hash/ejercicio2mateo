@@ -1,6 +1,8 @@
 import math 
 class Ejercicio3():
     def __init__(self):
+        self.palabra = 0
+    def leerPalabra(self): 
         while True:
             self.palabra = input("palabra:")
             if self.palabra == "salir":

@@ -1,6 +1,10 @@
 import math
 class ejercicio4():
     def __init__(self):
+        self.n=0
+        self.u=0
+        
+    def leerValores(self):
         self.n=int(input("Profundidad del pozo(pulg)="))
         self.u=int(input("Energía(pulg/min)="))
        
